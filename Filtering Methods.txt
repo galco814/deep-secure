@@ -1,0 +1,39 @@
+What did the deep-secure done?
+
+_rels
+	.rels:
+	 1. Retouched the IDs to gibrish
+
+docProps:
+	app, core: 
+	 1. Deleted Property element
+
+word:
+	_rels:
+		document.xml.rels:
+		 1. Retoucehd the ID names - apropriate to .rels files
+		 2. Shuffeled the order of elements:
+			 Target, TargetMode and then type
+		 3. Shuffeled the order of attributes
+		 4. Added TargetMode="Internal" attribute
+	theme:
+		theme.xml:
+		 1. Changed 'theme1.xml' to 'theme13.xml'
+		 2. Swapped order of attributes
+
+	document, webSettings, styles, settings, fontTable:
+	 1. Delted BUNCH of main element's attributes - the ignorable ones	
+
+[Content_Types].xml:
+ 1. Deleted a Default element
+
+
+
+
+
+
+General Conclustion:
+ * Handeling good macros. 
+ * Not handeling links.
+ * Doing some nice rebuilding actions - swapping, changing IDs, 
+   removing ignorable attrobutes, adding some data, etc.

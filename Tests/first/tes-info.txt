@@ -1,0 +1,1 @@
+This test contain simple docx file with little text in it.
